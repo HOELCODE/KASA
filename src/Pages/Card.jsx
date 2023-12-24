@@ -8,7 +8,7 @@ import ErrorPage from "./ErrorPage"
 import Collapse from '../Components/Collapse'
 import Carousel from '../Components/Carousel'
 
-import "../Styles/Card.css"
+import "./Card.css"
 import records from "../Datas/logements.json"
 
 const arrayStars = [1, 2, 3, 4, 5]

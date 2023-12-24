@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import chevronUp from "../Assets/ChevronUp.png"
 import chevronDown from "../Assets/ChevronDown.png"
-import "../Styles/Collapse.css"
+import "./Collapse.css"
 
 
 
@@ -22,7 +22,7 @@ function Collapse({title, content}) {
         <div className='collapse'>
 
             {/* affiche le titre et le chevron */}
-            <div className='collapse__header' onClick={affContent}>
+            <div className='collapseHeader' onClick={affContent}>
                 <span>{title}</span>
                 <div className="chevronValue">
                     <img src={collapseChevron} alt=""/>

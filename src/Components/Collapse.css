@@ -13,7 +13,7 @@
     list-style-type: none;
 }
 
-.collapse__header {
+.collapseHeader {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -27,7 +27,7 @@
     cursor: pointer;
 }
 
-.collapse__header span {
+.collapseHeader span {
     padding-right: auto;
 }
 /* affiche le contenu */
@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 768px) {
-    .collapse__header {
+    .collapseHeader {
         font-size: 13px;
         height: 20px;
     }

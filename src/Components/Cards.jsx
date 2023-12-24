@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import records from "../Datas/logements.json"
-import "../Styles/Cards.css"
+import "./Cards.css"
 
 // composant qui permet de récupérer la liste des logements et de les afficher sous forme de card
 

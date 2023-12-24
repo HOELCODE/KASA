@@ -4,7 +4,7 @@ import Shaping from "../Layout/Shaping"
 import Navbar from "../Layout/Navbar"
 import Footer from "../Layout/Footer"
 
-import "../Styles/ErrorPage.css"
+import "./ErrorPage.css"
 
 function ErrorPage() {
     return (

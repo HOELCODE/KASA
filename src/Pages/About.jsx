@@ -5,7 +5,7 @@ import Banner from '../Components/Banner'
 import Footer from "../Layout/Footer"
 import Collapse from '../Components/Collapse'
 
-import "../Styles/About.css"
+import "./About.css"
 
 function About() {
     // contenu qui sera affiché dans les Collapse
@@ -18,7 +18,7 @@ function About() {
             <Shaping>
                 <Navbar />
                 <Banner>
-                    <div className="banner2 banner-commun"></div>
+                    <div className="bannerAbout bannerCommun"></div>
                 </Banner>
                 <div className='about'>
                     <div><Collapse title="Fiabilité" content={fiabilite} /></div>

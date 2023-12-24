@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import chevronGauche from "../Assets/ChevronGauche.png"
 import chevronDroit from "../Assets/ChevronDroit.png"
-import "../Styles/Carousel.css"
+import "./Carousel.css"
 
 
 function Carousel({pictures}) { //reçois un tableau avec les URL des images
@@ -17,7 +17,7 @@ function Carousel({pictures}) { //reçois un tableau avec les URL des images
         <div className='carousel'>
 
             {/* affiche la première image */}
-            <div className='div-image'>  
+            <div className='divImage'>  
                 <img src={pictures[index]} className="classImage" key={"car-"+index} alt={"photo "+index} />
             </div>
 
@@ -34,7 +34,7 @@ function Carousel({pictures}) { //reçois un tableau avec les URL des images
             )}
             {totalPictures > 0 && (
                 // compteur d'images qui ne s'affiche qu'en version Desktop et lorsqu'il y a plusieurs images
-                <div className='div-compteur'> 
+                <div className='divCompteur'> 
                     <p className='compteurImages'>
                         {index+1}/{totalPictures+1}
                     </p>

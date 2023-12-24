@@ -5,7 +5,7 @@ import Banner from '../Components/Banner'
 import Footer from "../Layout/Footer"
 import Cards from '../Components/Cards'
 
-import "../Styles/Home.css"
+import "./Home.css"
 
 function Home() {
     return (
@@ -13,7 +13,7 @@ function Home() {
             <Shaping>
                 <Navbar />
                 <Banner>
-                    <div className="banner banner-commun">
+                    <div className="bannerHome bannerCommun">
                         <h1>Chez vous, partout et ailleurs</h1>
                     </div>
                 </Banner>

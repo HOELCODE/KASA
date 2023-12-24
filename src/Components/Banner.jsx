@@ -1,4 +1,4 @@
-import '../Styles/Banner.css'
+import './Banner.css'
 
 // composant children pour le cas ou il y aurait plus de 2 bannières.
 function Banner({children}) { 
