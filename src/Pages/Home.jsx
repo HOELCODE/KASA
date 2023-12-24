@@ -13,7 +13,7 @@ function Home() {
             <Shaping>
                 <Navbar />
                 <Banner>
-                    <div className="bannerHome bannerCommun">
+                    <div className="banner-home banner-commun">
                         <h1>Chez vous, partout et ailleurs</h1>
                     </div>
                 </Banner>

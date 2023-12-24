@@ -39,7 +39,7 @@ function Card() {
                 <Carousel pictures={record.pictures}/>
 
                 {/* 1 - affiche le titre, l'emplacement et les tags */}
-                <div className='ficheLogement'>
+                <div className='fiche-logement-card'>
                     <div className='div-description'>
                         <h1>{record.title}</h1>
                         <h4>{record.location}</h4>
@@ -71,7 +71,7 @@ function Card() {
 
 
                 {/* affiche la description et les équipements */}
-                <div className='collapseLogement'>
+                <div className='collapse-logement'>
                     <Collapse title="Description" content={record.description} />
                     <Collapse title="Equipements" content={equipements} />
                 </div>

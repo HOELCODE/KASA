@@ -15,7 +15,7 @@
     text-shadow: 0px 0px 5px black;
 }
 
-.classImage {
+.class-image {
     position: absolute;
     content: "";
     height: 100%;
@@ -33,7 +33,7 @@
     color: var(--colorWhite);
 }
 
-.classChevronGauche {
+.class-chevron-gauche {
     position: absolute;
     content: "";
     color: var(--colorWhite);
@@ -43,7 +43,7 @@
     left: 0;
 }
 
-.classChevronDroit {
+.class-chevron-droit {
     position: absolute;
     content: "";
     inset: 0;
@@ -57,10 +57,10 @@
     .carousel { 
         height: 255px; 
     }
-    .classChevronGauche { 
+    .class-chevron-gauche { 
         height: 30px; 
     }
-    .classChevronDroit {
+    .class-chevron-droit {
         height: 30px;
         left: calc(100% - 20px)
     }

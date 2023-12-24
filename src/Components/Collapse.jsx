@@ -22,9 +22,9 @@ function Collapse({title, content}) {
         <div className='collapse'>
 
             {/* affiche le titre et le chevron */}
-            <div className='collapseHeader' onClick={affContent}>
+            <div className='collapse-header' onClick={affContent}>
                 <span>{title}</span>
-                <div className="chevronValue">
+                <div className="chevron-value">
                     <img src={collapseChevron} alt=""/>
                 </div>
             </div>

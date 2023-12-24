@@ -17,25 +17,25 @@ function Carousel({pictures}) { //reçois un tableau avec les URL des images
         <div className='carousel'>
 
             {/* affiche la première image */}
-            <div className='divImage'>  
-                <img src={pictures[index]} className="classImage" key={"car-"+index} alt={"photo "+index} />
+            <div className='div-image'>  
+                <img src={pictures[index]} className="class-image" key={"car-"+index} alt={"photo "+index} />
             </div>
 
             {/* si plus d'une image, alors ce code sera exécuté */}
             {totalPictures > 0 && ( 
                 <div> {/* les boutons pour les chevrons droit et gauche, servent pour naviguer au sein du Carousel */}
                     <button onClick={() => setIndex(index - 1)}>{index}
-                        <img src={chevronGauche} className='classChevronGauche' alt={'flèche gauche pour changer de photo '+index} />
+                        <img src={chevronGauche} className='class-chevron-gauche' alt={'flèche gauche pour changer de photo '+index} />
                     </button>
                     <button onClick={() => setIndex(index + 1)}>{index}
-                        <img src={chevronDroit} className='classChevronDroit' alt={'flèche droite pour changer de photo '+index} />
+                        <img src={chevronDroit} className='class-chevron-droit' alt={'flèche droite pour changer de photo '+index} />
                     </button>
                 </div>
             )}
             {totalPictures > 0 && (
                 // compteur d'images qui ne s'affiche qu'en version Desktop et lorsqu'il y a plusieurs images
-                <div className='divCompteur'> 
-                    <p className='compteurImages'>
+                <div className='div-compteur'> 
+                    <p className='compteur-image'>
                         {index+1}/{totalPictures+1}
                     </p>
                 </div>

@@ -18,7 +18,7 @@ function About() {
             <Shaping>
                 <Navbar />
                 <Banner>
-                    <div className="bannerAbout bannerCommun"></div>
+                    <div className="banner-about banner-commun"></div>
                 </Banner>
                 <div className='about'>
                     <div><Collapse title="Fiabilité" content={fiabilite} /></div>

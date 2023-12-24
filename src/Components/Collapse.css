@@ -13,7 +13,7 @@
     list-style-type: none;
 }
 
-.collapseHeader {
+.collapse-header {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -27,7 +27,7 @@
     cursor: pointer;
 }
 
-.collapseHeader span {
+.collapse-header span {
     padding-right: auto;
 }
 /* affiche le contenu */
@@ -40,7 +40,7 @@
     display: none;
 }
 
-.chevronValue img {
+.chevron-value img {
     width: 25px;
     height: 15px;
 }
@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 768px) {
-    .collapseHeader {
+    .collapse-header {
         font-size: 13px;
         height: 20px;
     }

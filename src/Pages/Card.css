@@ -5,18 +5,18 @@
     height: 100%;
 }
 
-.ficheLogement {
+.fiche-logement-card {
     display: flex;
     margin-top: 30px;
 }
 
-.ficheLogement h4 {
+.fiche-logement-card h4 {
     color: var(--colorRed);
     margin-top: 10px;
     font-size: 18px;
 }
 
-.ficheLogement h1 {
+.fiche-logement-card h1 {
     color: var(--colorRed);
     margin: 0;
     font-size: 36px;
@@ -86,7 +86,7 @@
     color: #E3E3E3;
 }
 
-.collapseLogement {
+.collapse-logement {
     display: flex;
     gap: 2rem;
     margin-top: 20px;
@@ -100,10 +100,10 @@
 /** média query */
 
 @media (max-width: 768px) {
-    .compteurImages { 
+    .compteur-images { 
         display: none; 
     }
-    .ficheLogement, .collapseLogement { 
+    .fiche-logement-card, .collapse-logement { 
         display: block; 
     }
     .description { margin-bottom: 30px; }
