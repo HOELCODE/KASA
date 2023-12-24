@@ -18,7 +18,7 @@ function Carousel({pictures}) { //reçois un tableau avec les URL des images
 
             {/* affiche la première image */}
             <div className='div-image'>  
-                <img src={pictures[index]} className="class-image" key={"car-"+index} alt={"photo "+index} />
+                <img src={pictures[index]} className="class-image" key={"car-"+index} alt={"photo "+index} aria-hidden="true"/>
             </div>
 
             {/* si plus d'une image, alors ce code sera exécuté */}

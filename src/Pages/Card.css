@@ -74,8 +74,8 @@
     display: flex;
     font-size: 30px;
     width: 130px;
-    gap: 10px;
-    }
+    gap: 5px;
+}
 
 .span1 {
     color: var(--colorRed);
@@ -100,7 +100,7 @@
 /** média query */
 
 @media (max-width: 768px) {
-    .compteur-images { 
+    .compteur-image { 
         display: none; 
     }
     .fiche-logement-card, .collapse-logement { 
